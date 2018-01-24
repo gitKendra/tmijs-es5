@@ -1,29 +1,7 @@
 {
   "_from": "tmi.js@^1.2.1",
-  "_id": "tmi.js@1.2.1",
-  "_inBundle": false,
-  "_integrity": "sha1-a6NFOKAK3IKqbuSBqbNkn/YRGFM=",
-  "_location": "/tmi.js",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "tmi.js@^1.2.1",
-    "name": "tmi.js",
-    "escapedName": "tmi.js",
-    "rawSpec": "^1.2.1",
-    "saveSpec": null,
-    "fetchSpec": "^1.2.1"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/tmi.js/-/tmi.js-1.2.1.tgz",
-  "_shasum": "6ba34538a00adc82aa6ee481a9b3649ff6111853",
-  "_spec": "tmi.js@^1.2.1",
-  "_where": "C:\\Users\\Kendra\\Coding\\finalProject\\clone\\reactdigifriend\\client",
   "author": {
-    "name": "Schmoopiie"
+    "name": "Schmoopiie modded by rk"
   },
   "browser": {
     "ws": false,
@@ -78,7 +56,7 @@
     "index.js",
     "LICENSE"
   ],
-  "homepage": "https://github.com/tmijs/tmi.js#readme",
+  "homepage": "https://github.com/gitKendra/tmijs-es5#readme",
   "keywords": [
     "tmi",
     "twitch",
@@ -99,7 +77,7 @@
   "name": "tmi.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tmijs/tmi.js.git"
+    "url": "https://github.com/gitKendra/tmijs-es5"
   },
   "scripts": {
     "build": "npm-run-all --sequential build:*",
@@ -112,5 +90,5 @@
     "build:uglify": "uglifyjs --compress --mangle --output ./build/tmi.min.js --source-map ./build/tmi.js.map ./build/tmi.js",
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --require should"
   },
-  "version": "1.2.1"
+  "version": "1.0.0"
 }
